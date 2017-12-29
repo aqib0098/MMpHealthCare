@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.namtg.tests.Patients">
+        <methods>
+          <include name="Creats_fee"/>
+          <include name="login_Page"/>
+          <include name="Add_prescription"/>
+          <include name="report"/>
+          <include name="Quite"/>
+        </methods>
+      </class> <!-- com.namtg.tests.Patients -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
